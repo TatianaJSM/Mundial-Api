@@ -1,0 +1,80 @@
+[
+  {
+    "nombre": "Copa Mundial Qatar 2022",
+    "anio": 2022,
+    "sede": "Qatar",
+    "campeon": "Argentina",
+    "subcampeon": "Francia",
+    "goleador": "Kylian Mbappe",
+    "equipos": 32,
+    "imagen": "qatar-2022.avif",
+    "slug": "qatar-2022",
+    "resumen": "Argentina campeon tras una final epica ante Francia.",
+    "descripcion": "Primer Mundial en Medio Oriente; Argentina gano en penales su tercer titulo."
+  },
+  {
+    "nombre": "Copa Mundial Rusia 2018",
+    "anio": 2018,
+    "sede": "Rusia",
+    "campeon": "Francia",
+    "subcampeon": "Croacia",
+    "goleador": "Harry Kane",
+    "equipos": 32,
+    "imagen": "rusia-2018.avif",
+    "slug": "rusia-2018",
+    "resumen": "Francia obtuvo su segundo titulo mundial.",
+    "descripcion": "Francia vencio a Croacia en la final y confirmo una generacion joven y poderosa."
+  },
+  {
+    "nombre": "Copa Mundial Brasil 2014",
+    "anio": 2014,
+    "sede": "Brasil",
+    "campeon": "Alemania",
+    "subcampeon": "Argentina",
+    "goleador": "James Rodriguez",
+    "equipos": 32,
+    "imagen": "brasil-2014.avif",
+    "slug": "brasil-2014",
+    "resumen": "Alemania fue campeona con gol de Mario Gotze en la final.",
+    "descripcion": "El torneo fue recordado por la victoria 7-1 de Alemania sobre Brasil en semifinales."
+  },
+  {
+    "nombre": "Copa Mundial Sudafrica 2010",
+    "anio": 2010,
+    "sede": "Sudafrica",
+    "campeon": "España",
+    "subcampeon": "Paises Bajos",
+    "goleador": "Thomas Muller",
+    "equipos": 32,
+    "imagen": "sudafrica-2010.avif",
+    "slug": "sudafrica-2010",
+    "resumen": "España gano su primer Mundial.",
+    "descripcion": "Fue el primer Mundial celebrado en Africa y España vencio a Paises Bajos con gol de Iniesta."
+  },
+  {
+    "nombre": "Copa Mundial Alemania 2006",
+    "anio": 2006,
+    "sede": "Alemania",
+    "campeon": "Italia",
+    "subcampeon": "Francia",
+    "goleador": "Miroslav Klose",
+    "equipos": 32,
+    "imagen": "alemania-2006.avif",
+    "slug": "alemania-2006",
+    "resumen": "Italia gano su cuarto titulo mundial.",
+    "descripcion": "Italia vencio a Francia en penales en una final recordada por la expulsion de Zidane."
+  },
+  {
+    "nombre": "Copa Mundial Corea Japon 2002",
+    "anio": 2002,
+    "sede": "Corea del Sur y Japon",
+    "campeon": "Brasil",
+    "subcampeon": "Alemania",
+    "goleador": "Ronaldo",
+    "equipos": 32,
+    "imagen": "corea-japon-2002.avif",
+    "slug": "corea-japon-2002",
+    "resumen": "Brasil consiguio su quinto titulo mundial.",
+    "descripcion": "Fue el primer Mundial organizado en Asia y Brasil vencio a Alemania con dos goles de Ronaldo."
+  }
+]
