@@ -1,10 +1,10 @@
 import express from "express";
-import { search } from "./routes/mundiales/search.js";
+
 import { getAll } from "./routes/mundiales/getAll.js";
 import { getBySlug } from "./routes/mundiales/getBySlug.js";
 import { getByChampion } from "./routes/mundiales/getByChampion.js";
 import { random } from "./routes/mundiales/random.js";
-
+import { search } from "./routes/mundiales/search.js";
 
 const app = express();
 
@@ -20,7 +20,6 @@ app.get("/", (req, res) => {
     descripcion: "API REST sobre distintas ediciones de la Copa Mundial de la FIFA.",
     rutas: [
       "/mundiales",
-      "/mundiales?include=full",
       "/mundial/:slug",
       "/campeon/:pais",
       "/random",
@@ -35,7 +34,6 @@ app.get("/mundial/:slug", getBySlug);
 app.get("/campeon/:pais", getByChampion);
 app.get("/random", random);
 app.get("/search/:text", search);
-
 
 app.use((req, res) => {
   res.status(404).json({
