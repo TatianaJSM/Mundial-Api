@@ -5,6 +5,7 @@ import { getBySlug } from "./routes/mundiales/getBySlug.js";
 import { getByChampion } from "./routes/mundiales/getByChampion.js";
 import { random } from "./routes/mundiales/random.js";
 
+
 const app = express();
 
 const HOST = "localhost";
@@ -33,6 +34,8 @@ app.get("/mundiales", getAll);
 app.get("/mundial/:slug", getBySlug);
 app.get("/campeon/:pais", getByChampion);
 app.get("/random", random);
+app.get("/search/:text", search);
+
 
 app.use((req, res) => {
   res.status(404).json({
