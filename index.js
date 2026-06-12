@@ -1,5 +1,5 @@
 import express from "express";
-
+import { search } from "./routes/mundiales/search.js";
 import { getAll } from "./routes/mundiales/getAll.js";
 import { getBySlug } from "./routes/mundiales/getBySlug.js";
 import { getByChampion } from "./routes/mundiales/getByChampion.js";
